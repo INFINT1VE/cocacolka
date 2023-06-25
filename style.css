@@ -1,0 +1,113 @@
+#logo {
+    width: 100px;
+    height: 100px;
+    margin-left: 30px;
+    margin: 5px;
+}
+.container {
+    background-image: url("images/header.png");
+    margin: -10px;
+    position: sticky;
+    width: 102.7%;
+    top: -1px;
+    z-index: 99;
+}
+ul, li {
+    display: block;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+}
+
+.menu li {
+    margin-right: 40px;
+} 
+.navigation {
+    height: 145px;
+    display: flex;
+    align-items: center;
+}
+.about {
+    color: white;
+    transition: 0.2s ease;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.about:hover {
+    color: greenyellow;
+}
+.donate {
+    color: white;
+    transition: 0.2s ease;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.donate:hover {
+    background-image: repeating-linear-gradient(-89deg, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.dinah{ 
+   margin: 200px;
+   text-align: center; 
+}
+#about_text_welcome {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
+@media screen and (min-width: 770) {
+    #about_text_welcome{
+        transform: translate(-50%, 40%);
+    }
+}
+.about_pic_welcome {
+    margin-left: -10px;
+    margin-top: 10px;
+    width: 102.7%;
+    height: auto;
+}
+@media screen and (min-width: 770px) {
+    .about_pic_welcome{
+        filter: grayscale(100%);
+    }
+}
+.container2{
+    position: relative;
+}
+#about_header {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blueviolet;
+}
+@media screen and (max-width: 1220px) and (min-width: 770px) {
+    #about_header{
+        top: 15%;
+        transform: translate(-50%, 100%);
+    }
+}
+@media screen and (min-width: 770px) {
+    #about_header {
+        transform: translate(-50%, -210%);
+        top: 38%;
+    }
+}
+@media screen and (min-width: 770px){
+    .center {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+    }
+}
